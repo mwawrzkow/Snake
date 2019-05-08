@@ -59,6 +59,12 @@ build CMakeFiles/Snake.dir/src/GameLogic/Snake/Grid/SnakeBoard.cpp.o: CXX_COMPIL
   FLAGS = -std=c++17 -pthread -lpthread -lstdc++ -lX11 -O3 -DNDEBUG
   OBJECT_DIR = CMakeFiles/Snake.dir
   OBJECT_FILE_DIR = CMakeFiles/Snake.dir/src/GameLogic/Snake/Grid
+build CMakeFiles/Snake.dir/src/GameLogic/Snake/Grid/BoardView.cpp.o: CXX_COMPILER__Snake ../../src/GameLogic/Snake/Grid/BoardView.cpp || cmake_object_order_depends_target_Snake
+  DEFINES = -DPOCO_NO_AUTOMATIC_LIBS
+  DEP_FILE = CMakeFiles/Snake.dir/src/GameLogic/Snake/Grid/BoardView.cpp.o.d
+  FLAGS = -std=c++17 -pthread -lpthread -lstdc++ -lX11 -O3 -DNDEBUG
+  OBJECT_DIR = CMakeFiles/Snake.dir
+  OBJECT_FILE_DIR = CMakeFiles/Snake.dir/src/GameLogic/Snake/Grid
 build CMakeFiles/Snake.dir/src/GameLogic/Snake/Grid/Snake.cpp.o: CXX_COMPILER__Snake ../../src/GameLogic/Snake/Grid/Snake.cpp || cmake_object_order_depends_target_Snake
   DEFINES = -DPOCO_NO_AUTOMATIC_LIBS
   DEP_FILE = CMakeFiles/Snake.dir/src/GameLogic/Snake/Grid/Snake.cpp.o.d
@@ -173,6 +179,12 @@ build CMakeFiles/Snake.dir/src/SnakeRender.cpp.o: CXX_COMPILER__Snake ../../src/
   FLAGS = -std=c++17 -pthread -lpthread -lstdc++ -lX11 -O3 -DNDEBUG
   OBJECT_DIR = CMakeFiles/Snake.dir
   OBJECT_FILE_DIR = CMakeFiles/Snake.dir/src
+build CMakeFiles/Snake.dir/src/States/Game.cpp.o: CXX_COMPILER__Snake ../../src/States/Game.cpp || cmake_object_order_depends_target_Snake
+  DEFINES = -DPOCO_NO_AUTOMATIC_LIBS
+  DEP_FILE = CMakeFiles/Snake.dir/src/States/Game.cpp.o.d
+  FLAGS = -std=c++17 -pthread -lpthread -lstdc++ -lX11 -O3 -DNDEBUG
+  OBJECT_DIR = CMakeFiles/Snake.dir
+  OBJECT_FILE_DIR = CMakeFiles/Snake.dir/src/States
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Snake
@@ -181,7 +193,7 @@ build CMakeFiles/Snake.dir/src/SnakeRender.cpp.o: CXX_COMPILER__Snake ../../src/
 #############################################
 # Link the executable Snake
 
-build Snake: CXX_EXECUTABLE_LINKER__Snake CMakeFiles/Snake.dir/Snake.cpp.o CMakeFiles/Snake.dir/src/GameLogic/Snake/Grid/SnakeBoard.cpp.o CMakeFiles/Snake.dir/src/GameLogic/Snake/Grid/Snake.cpp.o CMakeFiles/Snake.dir/src/GameLogic/Snake/Player.cpp.o CMakeFiles/Snake.dir/src/GameLogic/Snake/GameController.cpp.o CMakeFiles/Snake.dir/src/WindowStates/FileIO/FileInformation/FileInformation.cpp.o CMakeFiles/Snake.dir/src/WindowStates/FileIO/FileManager.cpp.o CMakeFiles/Snake.dir/src/WindowStates/LoadSprite/texturebackend/Cache.cpp.o CMakeFiles/Snake.dir/src/WindowStates/LoadSprite/texturebackend/SpriteOptions.cpp.o CMakeFiles/Snake.dir/src/WindowStates/LoadSprite/ClickEvent.cpp.o CMakeFiles/Snake.dir/src/WindowStates/LoadSprite/Object.cpp.o CMakeFiles/Snake.dir/src/WindowStates/LoadSprite/ObjectInterface.cpp.o CMakeFiles/Snake.dir/src/WindowStates/LoadSprite/ObjectUpdate.cpp.o CMakeFiles/Snake.dir/src/WindowStates/LoadSprite/RenderClass.cpp.o CMakeFiles/Snake.dir/src/WindowStates/State.cpp.o CMakeFiles/Snake.dir/src/WindowPrototypes/EventHandler.cpp.o CMakeFiles/Snake.dir/src/WindowPrototypes/MSSFMLView.cpp.o CMakeFiles/Snake.dir/src/WindowPrototypes/Render.cpp.o CMakeFiles/Snake.dir/src/FileIOController.cpp.o CMakeFiles/Snake.dir/src/SFMLView.cpp.o CMakeFiles/Snake.dir/src/SnakeRender.cpp.o | /usr/lib/libsfml-graphics.so.2.5.1 /usr/lib/libsfml-audio.so.2.5.1 /usr/local/lib/libPocoUtil.so.60 /usr/local/lib/libPocoNet.so.60 /usr/lib/libsfml-window.so.2.5.1 /usr/lib/libsfml-system.so.2.5.1 /usr/local/lib/libPocoXML.so.60 /usr/local/lib/libPocoJSON.so.60 /usr/local/lib/libPocoFoundation.so.60
+build Snake: CXX_EXECUTABLE_LINKER__Snake CMakeFiles/Snake.dir/Snake.cpp.o CMakeFiles/Snake.dir/src/GameLogic/Snake/Grid/SnakeBoard.cpp.o CMakeFiles/Snake.dir/src/GameLogic/Snake/Grid/BoardView.cpp.o CMakeFiles/Snake.dir/src/GameLogic/Snake/Grid/Snake.cpp.o CMakeFiles/Snake.dir/src/GameLogic/Snake/Player.cpp.o CMakeFiles/Snake.dir/src/GameLogic/Snake/GameController.cpp.o CMakeFiles/Snake.dir/src/WindowStates/FileIO/FileInformation/FileInformation.cpp.o CMakeFiles/Snake.dir/src/WindowStates/FileIO/FileManager.cpp.o CMakeFiles/Snake.dir/src/WindowStates/LoadSprite/texturebackend/Cache.cpp.o CMakeFiles/Snake.dir/src/WindowStates/LoadSprite/texturebackend/SpriteOptions.cpp.o CMakeFiles/Snake.dir/src/WindowStates/LoadSprite/ClickEvent.cpp.o CMakeFiles/Snake.dir/src/WindowStates/LoadSprite/Object.cpp.o CMakeFiles/Snake.dir/src/WindowStates/LoadSprite/ObjectInterface.cpp.o CMakeFiles/Snake.dir/src/WindowStates/LoadSprite/ObjectUpdate.cpp.o CMakeFiles/Snake.dir/src/WindowStates/LoadSprite/RenderClass.cpp.o CMakeFiles/Snake.dir/src/WindowStates/State.cpp.o CMakeFiles/Snake.dir/src/WindowPrototypes/EventHandler.cpp.o CMakeFiles/Snake.dir/src/WindowPrototypes/MSSFMLView.cpp.o CMakeFiles/Snake.dir/src/WindowPrototypes/Render.cpp.o CMakeFiles/Snake.dir/src/FileIOController.cpp.o CMakeFiles/Snake.dir/src/SFMLView.cpp.o CMakeFiles/Snake.dir/src/SnakeRender.cpp.o CMakeFiles/Snake.dir/src/States/Game.cpp.o | /usr/lib/libsfml-graphics.so.2.5.1 /usr/lib/libsfml-audio.so.2.5.1 /usr/local/lib/libPocoUtil.so.60 /usr/local/lib/libPocoNet.so.60 /usr/lib/libsfml-window.so.2.5.1 /usr/lib/libsfml-system.so.2.5.1 /usr/local/lib/libPocoXML.so.60 /usr/local/lib/libPocoJSON.so.60 /usr/local/lib/libPocoFoundation.so.60
   FLAGS = -std=c++17 -pthread -lpthread -lstdc++ -lX11 -O3 -DNDEBUG
   LINK_FLAGS = -rdynamic
   LINK_LIBRARIES = -Wl,-rpath,/usr/local/lib /usr/lib/libsfml-graphics.so.2.5.1 /usr/lib/libsfml-audio.so.2.5.1 /usr/local/lib/libPocoUtil.so.60 /usr/local/lib/libPocoNet.so.60 /usr/lib/libsfml-window.so.2.5.1 /usr/lib/libsfml-system.so.2.5.1 /usr/local/lib/libPocoXML.so.60 /usr/local/lib/libPocoJSON.so.60 /usr/local/lib/libPocoFoundation.so.60 -lpthread -ldl -lrt

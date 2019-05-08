@@ -13,6 +13,12 @@
 
 {
   "directory": "/home/mwawrzkow/Desktop/saper/snake/build/default",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS   -std=c++17 -pthread -lpthread -lstdc++ -lX11 -O3 -DNDEBUG   -o CMakeFiles/Snake.dir/src/GameLogic/Snake/Grid/BoardView.cpp.o -c /home/mwawrzkow/Desktop/saper/snake/src/GameLogic/Snake/Grid/BoardView.cpp",
+  "file": "/home/mwawrzkow/Desktop/saper/snake/src/GameLogic/Snake/Grid/BoardView.cpp"
+},
+
+{
+  "directory": "/home/mwawrzkow/Desktop/saper/snake/build/default",
   "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS   -std=c++17 -pthread -lpthread -lstdc++ -lX11 -O3 -DNDEBUG   -o CMakeFiles/Snake.dir/src/GameLogic/Snake/Grid/Snake.cpp.o -c /home/mwawrzkow/Desktop/saper/snake/src/GameLogic/Snake/Grid/Snake.cpp",
   "file": "/home/mwawrzkow/Desktop/saper/snake/src/GameLogic/Snake/Grid/Snake.cpp"
 },
@@ -123,5 +129,11 @@
   "directory": "/home/mwawrzkow/Desktop/saper/snake/build/default",
   "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS   -std=c++17 -pthread -lpthread -lstdc++ -lX11 -O3 -DNDEBUG   -o CMakeFiles/Snake.dir/src/SnakeRender.cpp.o -c /home/mwawrzkow/Desktop/saper/snake/src/SnakeRender.cpp",
   "file": "/home/mwawrzkow/Desktop/saper/snake/src/SnakeRender.cpp"
+},
+
+{
+  "directory": "/home/mwawrzkow/Desktop/saper/snake/build/default",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS   -std=c++17 -pthread -lpthread -lstdc++ -lX11 -O3 -DNDEBUG   -o CMakeFiles/Snake.dir/src/States/Game.cpp.o -c /home/mwawrzkow/Desktop/saper/snake/src/States/Game.cpp",
+  "file": "/home/mwawrzkow/Desktop/saper/snake/src/States/Game.cpp"
 }
 ]

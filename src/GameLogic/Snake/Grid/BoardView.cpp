@@ -1,0 +1,42 @@
+/*
+ * BoardView.cpp
+ *
+ *  Created on: May 8, 2019
+ *      Author: mwawrzkow
+ */
+
+#include "BoardView.h"
+
+namespace Board {
+
+BoardView::BoardView(SnakeBoard* board,Unit::Snake* playerone,Unit::Snake* playertwo) :
+		board(board),SnakeOne(playerone),SnakeTwo(playertwo) {
+	// TODO Auto-generated constructor stub
+
+}
+blockType BoardView::getBlockType(int x, int y) {
+	if (board->isEmpty(x, y))
+		return blockType::board;
+	if (board->isBrick(x, y))
+		return blockType::brick;
+	if (board->isEatable(x, y))
+		return blockType::eatable;
+	return blockType::ERROR;
+}
+BoardView::~BoardView() {
+	// TODO Auto-generated destructor stub
+}
+const Unit::Snake* BoardView::getSnake(playerNumber choice) const{
+	switch(choice){
+	case one:
+		return SnakeOne;
+		break;
+	case two:
+		return SnakeTwo;
+		break;
+	default:
+		return nullptr;
+	}
+}
+
+} /* namespace Board */

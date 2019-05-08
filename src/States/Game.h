@@ -8,12 +8,17 @@
 #ifndef SRC_STATES_GAME_H_
 #define SRC_STATES_GAME_H_
 #include "../WindowStates/State.h"
-namespace Window {
+#include "../GameLogic/Snake/GameController.h"
+namespace SnakeState {
 
 class Game : public Controller::State{
+private:
+	Controller::GameController *GameControler;
 public:
-	Game();
+	Game(std::string,std::shared_ptr<Texture::Cache>TextureCache,bool*);
 	virtual ~Game();
+	virtual void CreateUnits();
+	virtual void setUnits();
 };
 
 } /* namespace Window */

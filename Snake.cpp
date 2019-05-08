@@ -3,6 +3,7 @@
 #include "src/SFMLView.h"
 
 int main(int argc, char **argv) {
+	/*
 	std::string ConfigurationFilePath;
 	FileIO::getexepath(argv[0], ConfigurationFilePath);
 	IO::FileManager settings(ConfigurationFilePath + "Config.conf");
@@ -12,5 +13,8 @@ int main(int argc, char **argv) {
 					settings.value_INT(IO::Information::HEIGHT)), "Snake");
 	Window::SnakeRender render(toController);
 	Window::SFML_View Window(render,settings,ConfigurationFilePath);
+	*/
+	Controller::GameController ctrl("Marcinek");
+	ctrl.debugStart();
 	return 0;
 }

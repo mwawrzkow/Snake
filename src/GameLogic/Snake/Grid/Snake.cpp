@@ -99,7 +99,7 @@ Snake::~Snake(){}
 std::string Snake::getName(){
 	return name;
 }
-int Snake::getLenght(){
+const int Snake::getLenght()const{
 	return lenght;
 }
 } /* namespace Terrain */

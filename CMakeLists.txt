@@ -12,6 +12,7 @@ find_package(SFML  REQUIRED graphics window system)
 add_executable(Snake 
 					Snake.cpp
 					src/GameLogic/Snake/Grid/SnakeBoard.cpp
+					src/GameLogic/Snake/Grid/BoardView.cpp
 					src/GameLogic/Snake/Grid/Snake.cpp
 					src/GameLogic/Snake/Player.cpp
 					src/GameLogic/Snake/GameController.cpp
@@ -36,6 +37,8 @@ add_executable(Snake
 					src/FileIOController.cpp
 					src/SFMLView.cpp
 					src/SnakeRender.cpp
+					
+					src/States/Game.cpp
 					
 					)
 					

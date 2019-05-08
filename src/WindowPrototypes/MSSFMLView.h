@@ -45,14 +45,14 @@ public:
 	SFML_Controler(Graphic::Render &window, IO::FileManager &settings,
 			std::string gamedir);
 	void start();
-	~SFML_Controler();
+	virtual ~SFML_Controler();
+protected:
+	void stateChangeChecker();
+	void createGameStates();
 private:
 	void stateOfView();
 	void event();
 	void update();
-	void stateChangeChecker();
-	void createGameStates();
-
 };
 }
 #endif /* SRC_MSSFMLVIEW_H_ */

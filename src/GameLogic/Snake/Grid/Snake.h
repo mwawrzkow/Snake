@@ -38,7 +38,7 @@ public:
 	virtual UnitPosition requestHeadPosition();
 	virtual std::string getName();
 	virtual ~Snake();
-	virtual int getLenght();
+	virtual const int getLenght() const;
 };
 
 } /* namespace Terrain */

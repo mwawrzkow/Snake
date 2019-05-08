@@ -7,13 +7,26 @@
 
 #include "Game.h"
 
-namespace Window {
+namespace SnakeState {
 
-Game::Game() {
+Game::Game(std::string FileList, std::shared_ptr<Texture::Cache> TextureCache,
+		bool* sendRequest) :
+		State::State(FileList, TextureCache, sendRequest) {
 	// TODO Auto-generated constructor stub
+	StateAdd("SNAKEHEAD");
+	StateAdd("SNAKEBODY");
+	StateAdd("ENDOFSNAKEBODY");
+	StateAdd("BLOCK");
+	StateAdd("BOARD");
+	GameControler = new Controller::GameController("Janusz.");
 
 }
+void Game::CreateUnits(){
 
+}
+void Game::setUnits(){
+
+}
 Game::~Game() {
 	// TODO Auto-generated destructor stub
 }

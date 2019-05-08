@@ -9,20 +9,21 @@
 #define SRC_GAMELOGIC_SNAKE_GAMECONTROLLER_H_
 #include "Player.h"
 #include "Grid/SnakeBoard.h"
+#include "Grid/BoardView.h"
 namespace Controller{
 
 class GameController {
 	Board::SnakeBoard *board;
 	Unit::Snake *playerOne;
 	Unit::Snake *playerTwo;
+	Board::BoardView *view;
 
 public:
 	GameController(std::string,std::string);
 	GameController(std::string);
 	GameController();
 	void debugStart();
-	Unit::Snake* getPlayerOne();
-	Unit::Snake* getPlayerTwo();
+	Board::BoardView* getView();
 };
 
 } /* namespace Unit */

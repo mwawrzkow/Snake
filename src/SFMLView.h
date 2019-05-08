@@ -16,6 +16,8 @@ class SFML_View: public Graphic::SFML_Controler {
 
 public:
 	SFML_View(SnakeRender&,IO::FileManager&,std::string);
+protected:
+	void createGameStates();
 };
 
 } /* namespace Unit */
