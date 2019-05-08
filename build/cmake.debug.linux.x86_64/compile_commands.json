@@ -1,0 +1,19 @@
+[
+{
+  "directory": "/home/marcin/eclipse-workspace/Snake/build/cmake.debug.linux.x86_64",
+  "command": "/usr/bin/c++    -g   -o CMakeFiles/Snake.dir/Snake.cpp.o -c /home/marcin/eclipse-workspace/Snake/Snake.cpp",
+  "file": "/home/marcin/eclipse-workspace/Snake/Snake.cpp"
+},
+
+{
+  "directory": "/home/marcin/eclipse-workspace/Snake/build/cmake.debug.linux.x86_64",
+  "command": "/usr/bin/c++    -g   -o CMakeFiles/Snake.dir/src/GameLogic/Snake/Grid/SnakeBoard.cpp.o -c /home/marcin/eclipse-workspace/Snake/src/GameLogic/Snake/Grid/SnakeBoard.cpp",
+  "file": "/home/marcin/eclipse-workspace/Snake/src/GameLogic/Snake/Grid/SnakeBoard.cpp"
+},
+
+{
+  "directory": "/home/marcin/eclipse-workspace/Snake/build/cmake.debug.linux.x86_64",
+  "command": "/usr/bin/c++    -g   -o CMakeFiles/Snake.dir/src/GameLogic/Snake/Grid/Snake.cpp.o -c /home/marcin/eclipse-workspace/Snake/src/GameLogic/Snake/Grid/Snake.cpp",
+  "file": "/home/marcin/eclipse-workspace/Snake/src/GameLogic/Snake/Grid/Snake.cpp"
+}
+]

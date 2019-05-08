@@ -1,0 +1,17 @@
+# ninja log v5
+6	1628	1557254778	CMakeFiles/Snake.dir/src/GameLogic/Snake/Grid/Snake.cpp.o	f87fb732b4f49c7b
+0	2690	1557254779	CMakeFiles/Snake.dir/Snake.cpp.o	c15afcf29e067d1d
+1	2714	1557254779	CMakeFiles/Snake.dir/src/GameLogic/Snake/Grid/SnakeBoard.cpp.o	964f3401d40a2df
+2714	3408	1557254780	Snake	740b28676e201027
+30	1477	1557301693	CMakeFiles/Snake.dir/src/GameLogic/Snake/Grid/Snake.cpp.o	f87fb732b4f49c7b
+1	2223	1557301694	CMakeFiles/Snake.dir/Snake.cpp.o	c15afcf29e067d1d
+22	2258	1557301694	CMakeFiles/Snake.dir/src/GameLogic/Snake/Grid/SnakeBoard.cpp.o	964f3401d40a2df
+2258	2561	1557301694	Snake	740b28676e201027
+1	664	1557301740	CMakeFiles/Snake.dir/src/GameLogic/Snake/Grid/Snake.cpp.o	f87fb732b4f49c7b
+664	1000	1557301740	Snake	740b28676e201027
+10	1335	1557302238	CMakeFiles/Snake.dir/src/GameLogic/Snake/Grid/Snake.cpp.o	f87fb732b4f49c7b
+1	1835	1557302239	CMakeFiles/Snake.dir/Snake.cpp.o	c15afcf29e067d1d
+2	2064	1557302239	CMakeFiles/Snake.dir/src/GameLogic/Snake/Grid/SnakeBoard.cpp.o	964f3401d40a2df
+2065	2437	1557302239	Snake	740b28676e201027
+1	1208	1557302276	CMakeFiles/Snake.dir/src/GameLogic/Snake/Grid/SnakeBoard.cpp.o	964f3401d40a2df
+1208	1511	1557302276	Snake	740b28676e201027
