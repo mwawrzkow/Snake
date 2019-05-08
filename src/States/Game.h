@@ -7,10 +7,10 @@
 
 #ifndef SRC_STATES_GAME_H_
 #define SRC_STATES_GAME_H_
-
+#include "../WindowStates/State.h"
 namespace Window {
 
-class Game {
+class Game : public Controller::State{
 public:
 	Game();
 	virtual ~Game();

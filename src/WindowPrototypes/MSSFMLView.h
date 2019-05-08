@@ -21,6 +21,7 @@
 
 namespace Graphic {
 class SFML_Controler {
+protected:
 	Texture::Cache *Cache;
 	std::shared_ptr<Texture::Cache> TextureCache;
 	/*
