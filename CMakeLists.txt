@@ -35,6 +35,7 @@ add_executable(Snake
 					src/WindowPrototypes/Render.cpp
 					src/FileIOController.cpp
 					src/SFMLView.cpp
+					src/SnakeRender.cpp
 					
 					)
 					

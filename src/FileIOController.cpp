@@ -14,8 +14,8 @@ int lastslash(char findchar, std::string ourstring) {
 	temp = ourstring.find_last_of(findchar);
 	return temp;
 }
-void getexepath(const std::string lol, std::string &filelocation) {
-	filelocation = lol;
+void getexepath(const std::string exeLocation, std::string &filelocation) {
+	filelocation = exeLocation;
 	std::size_t whereami = lastslash(slash, filelocation);
 	filelocation.erase(filelocation.begin() + (whereami + 1),
 			filelocation.end());

@@ -7,12 +7,13 @@
 
 #ifndef SRC_SFMLVIEW_H_
 #define SRC_SFMLVIEW_H_
+#include "SnakeRender.h"
 #include "WindowPrototypes/MSSFMLView.h"
 namespace Window {
 
 class SFML_View: public Graphic::SFML_Controler {
 public:
-	SFML_View();
+	SFML_View(SnakeRender&,IO::FileManager&,std::string);
 };
 
 } /* namespace Unit */
