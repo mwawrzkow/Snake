@@ -12,12 +12,11 @@ SFML_Controler::SFML_Controler(Graphic::Render &window, IO::FileManager &setting
 		std::string gamedir) :
 		Cache(new Texture::Cache), TextureCache(Cache), window(window), gamedir(
 				gamedir), settings(settings), WindowState(
-				GameState::State::MainMenu),Event(window.getMutex()) {
-	createGameStates();
-	Event.setWindow(window.getWindow());
-	start();
+				GameState::State::MainMenu){
+
 }
 void SFML_Controler::createGameStates() {
+
 
 }
 
@@ -37,7 +36,7 @@ void SFML_Controler::start() {
 		}
 		//window.runThreadSafe();
 		states[WindowState]->update();
-		Event.EventChecker();
+		Event->EventChecker();
 		if (isAskingForChange)
 		{
 			WindowState = states[WindowState]->AskedState();

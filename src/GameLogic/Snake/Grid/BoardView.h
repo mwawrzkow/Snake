@@ -9,25 +9,23 @@
 #define SRC_GAMELOGIC_SNAKE_GRID_BOARDVIEW_H_
 #include "SnakeBoard.h"
 namespace Board {
-enum blockType{
-	ERROR,
-	brick,
-	board,
-	eatable,
+enum blockType {
+	ERROR, brick, board, eatable,
 };
-enum playerNumber{
-	one,
-	two
+enum playerNumber {
+	one, two
 };
 class BoardView {
 	const SnakeBoard *board;
 	const Unit::Snake *SnakeOne;
 	const Unit::Snake *SnakeTwo;
 public:
-	BoardView(SnakeBoard*,Unit::Snake*,Unit::Snake*);
-	blockType getBlockType(int,int);
+	BoardView(SnakeBoard*, Unit::Snake*, Unit::Snake*);
+	blockType getBlockType(int, int);
 	virtual ~BoardView();
-	const Unit::Snake* getSnake(playerNumber)const;
+	const Unit::Snake* getSnake(playerNumber) const;
+	const int getBoardWidth()const;
+	const int getBoardHeight()const;
 };
 
 } /* namespace Board */

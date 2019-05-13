@@ -29,7 +29,7 @@ protected:
 	 */
 	IO::FileManager &settings;
 	Render &window;
-	SFML_Handlers::EventHandler Event;
+	SFML_Handlers::EventHandler *Event;
 	Poco::Thread Display;
 	//Game Graphic objects
 	GameState::State WindowState;
@@ -48,7 +48,7 @@ public:
 	virtual ~SFML_Controler();
 protected:
 	void stateChangeChecker();
-	void createGameStates();
+	virtual void createGameStates() = 0 ;
 private:
 	void stateOfView();
 	void event();

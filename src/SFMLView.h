@@ -9,6 +9,7 @@
 #define SRC_SFMLVIEW_H_
 #include "SnakeRender.h"
 #include "WindowPrototypes/MSSFMLView.h"
+#include "SnakeEventHolder.h"
 #include "States/Game.h"
 namespace Window {
 
@@ -18,6 +19,7 @@ public:
 	SFML_View(SnakeRender&,IO::FileManager&,std::string);
 protected:
 	void createGameStates();
+	SnakeState::Game* Game;
 };
 
 } /* namespace Unit */

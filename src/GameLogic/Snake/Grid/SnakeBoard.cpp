@@ -46,7 +46,6 @@ void SnakeBoard::generateBoard() {
 		for (int y = 1; y <= height; y++) {
 			board[x][y].isBlock = false;
 		}
-	board[5][6].eatable = true;
 }
 void SnakeBoard::debugDisplay() {
 	for (int x = 0; x <= width + 1; x++) {
@@ -94,7 +93,7 @@ void SnakeBoard::update() {
 	clearBoard();
 	if (doesSnakeHitBoard())
 		state = loss;
-	debugDisplay();
+	//debugDisplay();
 	lastKnownPosition = Player1->getParts();
 	if (Player1->isAlive())
 		Player1->update();

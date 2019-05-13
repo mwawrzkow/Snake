@@ -34,11 +34,16 @@ add_executable(Snake
 					src/WindowPrototypes/EventHandler.cpp
 					src/WindowPrototypes/MSSFMLView.cpp
 					src/WindowPrototypes/Render.cpp
+					
+					
+					
+					src/SnakeEventHolder.cpp
 					src/FileIOController.cpp
 					src/SFMLView.cpp
 					src/SnakeRender.cpp
 					
 					src/States/Game.cpp
+					src/States/Game/Tile.cpp
 					
 					)
 					

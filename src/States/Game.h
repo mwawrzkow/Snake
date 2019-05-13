@@ -9,16 +9,25 @@
 #define SRC_STATES_GAME_H_
 #include "../WindowStates/State.h"
 #include "../GameLogic/Snake/GameController.h"
+#include "Game/Tile.h"
 namespace SnakeState {
 
-class Game : public Controller::State{
+class Game: public Controller::State {
 private:
+	std::vector<Unit::Tile *>brick;
+	std::vector<Unit::Tile *>board;
+	Unit::Tile *eatable;
+	Unit::Tile *snakeface;
+	std::vector<Unit::Tile *> snakebody;
 	Controller::GameController *GameControler;
+	sf::Clock clock;
 public:
-	Game(std::string,std::shared_ptr<Texture::Cache>TextureCache,bool*);
+	Game(std::string, std::shared_ptr<Texture::Cache> TextureCache, bool*);
 	virtual ~Game();
 	virtual void CreateUnits();
 	virtual void setUnits();
+	virtual void update(Unit::move) override;
+	virtual void update()override;
 };
 
 } /* namespace Window */

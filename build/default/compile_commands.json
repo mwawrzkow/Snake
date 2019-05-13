@@ -115,6 +115,12 @@
 
 {
   "directory": "/home/mwawrzkow/Desktop/saper/snake/build/default",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS   -std=c++17 -pthread -lpthread -lstdc++ -lX11 -O3 -DNDEBUG   -o CMakeFiles/Snake.dir/src/SnakeEventHolder.cpp.o -c /home/mwawrzkow/Desktop/saper/snake/src/SnakeEventHolder.cpp",
+  "file": "/home/mwawrzkow/Desktop/saper/snake/src/SnakeEventHolder.cpp"
+},
+
+{
+  "directory": "/home/mwawrzkow/Desktop/saper/snake/build/default",
   "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS   -std=c++17 -pthread -lpthread -lstdc++ -lX11 -O3 -DNDEBUG   -o CMakeFiles/Snake.dir/src/FileIOController.cpp.o -c /home/mwawrzkow/Desktop/saper/snake/src/FileIOController.cpp",
   "file": "/home/mwawrzkow/Desktop/saper/snake/src/FileIOController.cpp"
 },
@@ -135,5 +141,11 @@
   "directory": "/home/mwawrzkow/Desktop/saper/snake/build/default",
   "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS   -std=c++17 -pthread -lpthread -lstdc++ -lX11 -O3 -DNDEBUG   -o CMakeFiles/Snake.dir/src/States/Game.cpp.o -c /home/mwawrzkow/Desktop/saper/snake/src/States/Game.cpp",
   "file": "/home/mwawrzkow/Desktop/saper/snake/src/States/Game.cpp"
+},
+
+{
+  "directory": "/home/mwawrzkow/Desktop/saper/snake/build/default",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS   -std=c++17 -pthread -lpthread -lstdc++ -lX11 -O3 -DNDEBUG   -o CMakeFiles/Snake.dir/src/States/Game/Tile.cpp.o -c /home/mwawrzkow/Desktop/saper/snake/src/States/Game/Tile.cpp",
+  "file": "/home/mwawrzkow/Desktop/saper/snake/src/States/Game/Tile.cpp"
 }
 ]

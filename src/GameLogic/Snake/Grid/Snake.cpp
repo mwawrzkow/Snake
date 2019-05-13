@@ -20,7 +20,7 @@ void Snake::setPosition(int x, int y) {
 		parts.push_back(tmp);
 	}
 }
-std::vector<UnitPosition> Snake::getParts() {
+const std::vector<UnitPosition> Snake::getParts() const{
 	return parts;
 }
 void Snake::requestMove(move request) {
@@ -92,7 +92,7 @@ void Snake::update(){
 void Snake::killSnake(){
 	alive = false;
 }
-UnitPosition Snake::requestHeadPosition(){
+const UnitPosition Snake::requestHeadPosition()const{
 	return parts.at(0);
 }
 Snake::~Snake(){}

@@ -14,6 +14,7 @@
 namespace SFML_Handlers {
 
 class EventHandler {
+protected:
 	sf::Event WindowEvent;
 	sf::RenderWindow *window;
 	Controller::State *Objects;
@@ -21,9 +22,9 @@ class EventHandler {
 public:
 	EventHandler(Poco::Mutex *renderMutex);
 	void setWindow(sf::RenderWindow&);
-	void EventChecker();
+	virtual void EventChecker();
 	void setObjects(Controller::State*);
-	~EventHandler();
+	virtual ~EventHandler();
 	void closeGame();
 private:
 	void mousePress();

@@ -38,5 +38,10 @@ const Unit::Snake* BoardView::getSnake(playerNumber choice) const{
 		return nullptr;
 	}
 }
-
+const int BoardView::getBoardHeight() const{
+	return board->getHeight();
+}
+const int BoardView::getBoardWidth()const {
+	return board->getWidth();
+}
 } /* namespace Board */

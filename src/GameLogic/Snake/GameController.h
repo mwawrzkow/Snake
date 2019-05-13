@@ -23,7 +23,9 @@ public:
 	GameController(std::string);
 	GameController();
 	void debugStart();
+	void update();
 	Board::BoardView* getView();
+	void askPlayerOne(Unit::move);
 };
 
 } /* namespace Unit */

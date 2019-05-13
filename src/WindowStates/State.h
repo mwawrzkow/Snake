@@ -36,6 +36,9 @@ public:
 	virtual std::vector<Graphic::ObjectInterface*>*getUnits();
 	virtual void resetStates();
 	virtual GameState::State AskedState();
+public:
+	//Additional funcionation for Snake
+	virtual void update(Unit::move)=0;
 };
 
 } /* namespace Controller */
