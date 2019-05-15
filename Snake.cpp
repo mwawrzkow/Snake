@@ -12,5 +12,6 @@ int main(int argc, char **argv) {
 					settings.value_INT(IO::Information::HEIGHT)), "Snake");
 	Window::SnakeRender render(toController);
 	Window::SFML_View Window(render, settings, ConfigurationFilePath);
+
 	return 0;
 }

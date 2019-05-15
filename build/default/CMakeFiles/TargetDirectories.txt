@@ -1,3 +1,3 @@
-/home/mwawrzkow/Desktop/saper/snake/build/default/CMakeFiles/rebuild_cache.dir
-/home/mwawrzkow/Desktop/saper/snake/build/default/CMakeFiles/Snake.dir
-/home/mwawrzkow/Desktop/saper/snake/build/default/CMakeFiles/edit_cache.dir
+/home/marcin/Pulpit/snake/build/default/CMakeFiles/rebuild_cache.dir
+/home/marcin/Pulpit/snake/build/default/CMakeFiles/Snake.dir
+/home/marcin/Pulpit/snake/build/default/CMakeFiles/edit_cache.dir

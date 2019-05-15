@@ -31,19 +31,7 @@ GameController::GameController(std::string playerone, std::string playertwo) {
 	view = new Board::BoardView(board, playerTwo, playerOne);
 }
 void GameController::debugStart() {
-	while (board->getGameState() == Board::gamestate::running) {
-		if (playerTwo != nullptr) {
-			int move;
-			std::cin >> move;
-			playerTwo->requestMove(static_cast<Unit::move>(move));
-		}
-		if (playerOne != nullptr) {
-			int move;
-			std::cin >> move;
-			playerOne->requestMove(static_cast<Unit::move>(move));
-		}
-		board->update();
-	}
+		board->debugDisplay();
 }
 Board::BoardView* GameController::getView() {
 	return view;

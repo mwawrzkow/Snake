@@ -9,8 +9,9 @@
 
 namespace Window {
 
-SnakeRender::SnakeRender(sf::RenderWindow& toRender):Graphic::Render(toRender) {
-	// TODO Auto-generated constructor stub
+SnakeRender::SnakeRender(sf::RenderWindow& toRender):Graphic::Render(toRender),view(sf::Vector2f(-800, -400), sf::Vector2f(1280.f, 720.f)) {
+	view.setSize(2480.f, 1440.f);
+	window.setView(view);
 
 }
 

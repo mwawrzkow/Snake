@@ -27,6 +27,6 @@ void Tile::update() {
 
 }
 void Tile::setPosition(float x, float y) {
-	Sprite.setOrigin(sf::Vector2f(-x,-y));
+	Sprite.setOrigin(sf::Vector2f(x,y));
 }
 } /* namespace GraphicEvents */

@@ -11,6 +11,7 @@
 namespace Window {
 
 class SnakeRender :public Graphic::Render{
+	sf::View view;
 public:
 	SnakeRender(sf::RenderWindow&);
 	virtual ~SnakeRender();

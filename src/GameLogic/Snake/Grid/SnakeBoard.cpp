@@ -92,7 +92,10 @@ void SnakeBoard::update() {
 
 	clearBoard();
 	if (doesSnakeHitBoard())
+	{
 		state = loss;
+		Player1->killSnake();
+	}
 	//debugDisplay();
 	lastKnownPosition = Player1->getParts();
 	if (Player1->isAlive())

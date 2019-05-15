@@ -21,7 +21,9 @@ void Snake::setPosition(int x, int y) {
 	}
 }
 const std::vector<UnitPosition> Snake::getParts() const{
-	return parts;
+	std::vector<UnitPosition> tmp;
+	tmp.insert(tmp.end(),parts.begin()+1,parts.end());
+	return tmp;
 }
 void Snake::requestMove(move request) {
 	switch (request) {

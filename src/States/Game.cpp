@@ -19,6 +19,7 @@ Game::Game(std::string FileList, std::shared_ptr<Texture::Cache> TextureCache,
 	StateAdd("EATABLE");
 	StateAdd("BOARD");
 	GameControler = new Controller::GameController("Janusz.");
+	GameControler->debugStart();
 	State::start();
 
 }
@@ -57,7 +58,7 @@ void Game::CreateUnits() {
 						Unit::Tile * tmp;
 						tmp = new Unit::Tile(*Render.getQueue().at(i), x, y);
 						tmp->setPosition(100 * x, 100 * y);
-						//brick.push_back(tmp);
+						brick.push_back(tmp);
 					}
 
 		} else if (Render.getQueue().at(i)->getSpriteOptions().getName()
@@ -95,7 +96,39 @@ void Game::CreateUnits() {
 
 }
 void Game::setUnits() {
+	int x =
+			GameControler->getView()->getSnake(Board::playerNumber::one)->requestHeadPosition().x;
+	int y =
+			GameControler->getView()->getSnake(Board::playerNumber::one)->requestHeadPosition().y;
+	snakeface->setPosition(100 * x, 100 * y);
+	Units.erase(Units.end() - snakebody.size(), Units.end());
+	snakebody.clear();
+	for (const Unit::UnitPosition &e : GameControler->getView()->getSnake(
+			Board::playerNumber::one)->getParts()) {
+		int xbody = e.x;
+		int ybody = e.y;
+		for (int i = 0; i < Render.getQueue().size(); i++) {
+			if (Render.getQueue().at(i)->getSpriteOptions().getName()
+					== availibeNames[1]) {
+				Unit::Tile *tmp = new Unit::Tile(*Render.getQueue().at(i),
+						xbody, ybody);
+				tmp->setPosition(100 * xbody, 100 * ybody);
+				snakebody.push_back(tmp);
+			}
+		}
 
+	}
+
+	int width = GameControler->getView()->getBoardWidth();
+	int height = GameControler->getView()->getBoardHeight();
+	for (int x = 0; x <= width; x++)
+		for (int y = 0; y <= height; y++)
+			if (GameControler->getView()->getBlockType(x, y)
+					== Board::blockType::eatable) {
+
+				eatable->setPosition(100, 100);
+			}
+	Units.insert(Units.end(), snakebody.begin(), snakebody.end());
 
 }
 Game::~Game() {
@@ -105,7 +138,7 @@ void Game::update() {
 	sf::Time jump = sf::seconds(0.25);
 	if (jump <= clock.getElapsedTime()) {
 		GameControler->update();
-		CreateUnits();
+		setUnits();
 		clock.restart();
 	}
 }

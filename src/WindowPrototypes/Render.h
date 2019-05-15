@@ -16,9 +16,10 @@ namespace Graphic {
 
 class Render : Poco::Runnable{
 	Poco::Mutex mutex;
-	sf::RenderWindow &window;
 	std::vector<ObjectInterface*>*toRender;
 	sf::Clock tmp;
+protected:
+	sf::RenderWindow &window;
 public:
 	Render(sf::RenderWindow&);
 	void renderQueue(Controller::State&);

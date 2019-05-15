@@ -32,13 +32,13 @@ void SnakeEventHolder::EventChecker() {
 
 }
 void SnakeEventHolder::KeyPressed() {
-	if (WindowEvent.key.code == sf::Keyboard::D) {
+	if (WindowEvent.key.code == sf::Keyboard::A) {
 		Objects->update(Unit::move::up);
-	} else if (WindowEvent.key.code == sf::Keyboard::A) {
+	} else if (WindowEvent.key.code == sf::Keyboard::D) {
 		Objects->update(Unit::move::down);
-	} else if (WindowEvent.key.code == sf::Keyboard::W) {
-		Objects->update(Unit::move::left);
 	} else if (WindowEvent.key.code == sf::Keyboard::S) {
+		Objects->update(Unit::move::left);
+	} else if (WindowEvent.key.code == sf::Keyboard::W) {
 		Objects->update(Unit::move::right);
 	}
 }
