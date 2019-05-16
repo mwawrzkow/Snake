@@ -9,8 +9,8 @@
 
 namespace GraphicEvents {
 
-SnakeEventHolder::SnakeEventHolder(Poco::Mutex *renderMutex) :
-		EventHandler(renderMutex) {
+SnakeEventHolder::SnakeEventHolder()
+		 {
 	// TODO Auto-generated constructor stub
 
 }
@@ -19,8 +19,8 @@ SnakeEventHolder::~SnakeEventHolder() {
 	// TODO Auto-generated destructor stub
 }
 void SnakeEventHolder::EventChecker() {
-	renderMutex->lock();
-	Objects->update();
+	//renderMutex->lock();
+	//Objects->update();
 	while (window->pollEvent(WindowEvent)) {
 		if (WindowEvent.type == sf::Event::KeyPressed) {
 			KeyPressed();
@@ -28,7 +28,7 @@ void SnakeEventHolder::EventChecker() {
 			window->close();
 		}
 	}
-	renderMutex->unlock();
+	//renderMutex->unlock();
 
 }
 void SnakeEventHolder::KeyPressed() {

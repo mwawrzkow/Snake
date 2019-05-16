@@ -28,6 +28,7 @@ void SFML_Controler::start() {
 			stateOfView();
 		if (!doesRenderThreadWork) {
 			try {
+				window.setEvent(*Event);
 				Display.start(window);
 				doesRenderThreadWork = true;
 			} catch (Poco::Exception &e) {
@@ -36,7 +37,6 @@ void SFML_Controler::start() {
 		}
 		//window.runThreadSafe();
 		states[WindowState]->update();
-		Event->EventChecker();
 		if (isAskingForChange)
 		{
 			WindowState = states[WindowState]->AskedState();

@@ -12,7 +12,7 @@ namespace GraphicEvents {
 
 class SnakeEventHolder : public SFML_Handlers::EventHandler{
 public:
-	SnakeEventHolder(Poco::Mutex *renderMutex);
+	SnakeEventHolder();
 	virtual ~SnakeEventHolder();
 protected:
 	virtual void EventChecker() override;

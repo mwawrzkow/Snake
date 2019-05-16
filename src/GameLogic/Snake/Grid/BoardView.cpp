@@ -15,10 +15,10 @@ BoardView::BoardView(SnakeBoard* board,Unit::Snake* playerone,Unit::Snake* playe
 
 }
 blockType BoardView::getBlockType(int x, int y) {
-	if (board->isEmpty(x, y))
-		return blockType::board;
 	if (board->isBrick(x, y))
 		return blockType::brick;
+	if (board->isEmpty(x, y))
+		return blockType::board;
 	if (board->isEatable(x, y))
 		return blockType::eatable;
 	return blockType::ERROR;
@@ -26,7 +26,7 @@ blockType BoardView::getBlockType(int x, int y) {
 BoardView::~BoardView() {
 	// TODO Auto-generated destructor stub
 }
-const Unit::Snake* BoardView::getSnake(playerNumber choice) const{
+Unit::Snake* BoardView::getSnake(playerNumber choice){
 	switch(choice){
 	case one:
 		return SnakeOne;

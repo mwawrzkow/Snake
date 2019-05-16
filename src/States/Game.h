@@ -21,6 +21,8 @@ private:
 	std::vector<Unit::Tile *> snakebody;
 	Controller::GameController *GameControler;
 	sf::Clock clock;
+	bool firstMove = false;
+	int SnakeLenght= 1;
 public:
 	Game(std::string, std::shared_ptr<Texture::Cache> TextureCache, bool*);
 	virtual ~Game();
@@ -28,6 +30,7 @@ public:
 	virtual void setUnits();
 	virtual void update(Unit::move) override;
 	virtual void update()override;
+	void UnitsUpdate();
 };
 
 } /* namespace Window */

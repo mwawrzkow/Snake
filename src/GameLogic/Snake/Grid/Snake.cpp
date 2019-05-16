@@ -10,7 +10,7 @@
 namespace Unit {
 
 Snake::Snake() :
-		lenght(3) {
+		lenght(2) {
 }
 void Snake::setPosition(int x, int y) {
 	for (int lenght = 0; lenght < 3; lenght++) {
@@ -21,28 +21,11 @@ void Snake::setPosition(int x, int y) {
 	}
 }
 const std::vector<UnitPosition> Snake::getParts() const{
-	std::vector<UnitPosition> tmp;
-	tmp.insert(tmp.end(),parts.begin()+1,parts.end());
-	return tmp;
+	return parts;
 }
 void Snake::requestMove(move request) {
-	switch (request) {
-	case move::up:
-		if (reqMove != move::down)
-			reqMove = request;
-		break;
-	case move::left:
-		if (reqMove != move::right)
-			reqMove = request;
-		break;
-	case move::down:
-		if (reqMove != move::up)
-			reqMove = request;
-		break;
-	case move::right:
-		if (reqMove != move::left)
-			reqMove = request;
-	}
+	if(request != lastRequestedMove)
+		reqMove = request;
 }
 const bool Snake::isAlive()const{
 	return alive;
@@ -64,16 +47,26 @@ void Snake::update(){
 			{
 			case move::up:
 				parts.at(0).x++;
+				lastRequestedMove = move::down;
 				break;
 			case move::down:
 				parts.at(0).x--;
+				lastRequestedMove = move::up;
 				break;
 			case move::left:
 				parts.at(0).y--;
+				lastRequestedMove = move::right;
 				break;
 			case move::right:
 				parts.at(0).y++;
+				lastRequestedMove = move::left;
 				break;
+			}
+			for(int e = 1; e < lenght; e++)
+			{
+				if(parts.at(0).x == parts.at(e).x)
+					if(parts.at(0).y == parts.at(e).y)
+						killSnake();
 			}
 		}else{
 			if(e == lenght -1 && waitWithLastPart){
@@ -102,6 +95,6 @@ std::string Snake::getName(){
 	return name;
 }
 const int Snake::getLenght()const{
-	return lenght;
+	return lenght ;
 }
 } /* namespace Terrain */

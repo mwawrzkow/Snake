@@ -53,5 +53,6 @@ if(SFML_FOUND)
     target_link_libraries(Snake sfml-system sfml-window sfml-graphics sfml-audio)
     
 endif()
+
 target_link_libraries(Snake Poco::Foundation Poco::Util Poco::Net)
 					

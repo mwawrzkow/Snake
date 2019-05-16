@@ -12,11 +12,13 @@
 #include <SFML/Graphics.hpp>
 #include "Poco/Runnable.h"
 #include "../WindowStates/State.h"
+#include "EventHandler.h"
 namespace Graphic {
 
 class Render : Poco::Runnable{
 	Poco::Mutex mutex;
 	std::vector<ObjectInterface*>*toRender;
+	SFML_Handlers::EventHandler *event;
 	sf::Clock tmp;
 protected:
 	sf::RenderWindow &window;
@@ -25,6 +27,7 @@ public:
 	void renderQueue(Controller::State&);
 	void run();
 	void runThreadSafe();
+	void setEvent(SFML_Handlers::EventHandler &);
 	~Render();
 	sf::RenderWindow &getWindow();
 	Poco::Mutex* getMutex();

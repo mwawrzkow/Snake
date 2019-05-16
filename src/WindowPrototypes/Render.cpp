@@ -30,9 +30,13 @@ void Render::run() {
 			if(e->isVisible())
 			window.draw(*e->returnSprite());
 		}
+		event->EventChecker();
 		//		states[0]->resetStates();
 		window.display();
 	}
+}
+void Render::setEvent(SFML_Handlers::EventHandler &tmp){
+	event = &tmp;
 }
 void Render::runThreadSafe() {
 	sf::Time jumpValue = sf::seconds(1);

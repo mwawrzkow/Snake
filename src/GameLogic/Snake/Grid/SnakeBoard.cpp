@@ -42,8 +42,8 @@ bool SnakeBoard::isOnEtable() {
 	return false;
 }
 void SnakeBoard::generateBoard() {
-	for (int x = 1; x <= width; x++)
-		for (int y = 1; y <= height; y++) {
+	for (int x = 1; x < width; x++)
+		for (int y = 1; y < height; y++) {
 			board[x][y].isBlock = false;
 		}
 }
@@ -86,11 +86,7 @@ void SnakeBoard::clearBoard() {
 	}
 }
 void SnakeBoard::update() {
-	if (isOnEtable()) {
-		Player1->expandLenght();
-	}
 
-	clearBoard();
 	if (doesSnakeHitBoard())
 	{
 		state = loss;
@@ -100,6 +96,11 @@ void SnakeBoard::update() {
 	lastKnownPosition = Player1->getParts();
 	if (Player1->isAlive())
 		Player1->update();
+	clearBoard();
+
+	if (isOnEtable()) {
+		Player1->expandLenght();
+	}
 
 }
 void SnakeBoard::putEatable() {
@@ -168,7 +169,8 @@ const bool SnakeBoard::isEmpty(int x, int y) const {
 			return false;
 		if (board[x][y].isplayer)
 			return false;
+		return true;
 	}
-	return true;
+	return false;
 }
 } /* namespace Terrain */

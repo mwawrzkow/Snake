@@ -1,151 +1,151 @@
 [
 {
-  "directory": "/home/marcin/Pulpit/snake/build/default",
-  "command": "/usr/bin/c++  -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DXML_DTD -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -isystem /usr/local/include  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/Snake.dir/Snake.cpp.o -c /home/marcin/Pulpit/snake/Snake.cpp",
-  "file": "/home/marcin/Pulpit/snake/Snake.cpp"
+  "directory": "/home/mwawrzkow/Desktop/saper/snake/build/default",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS   -std=c++17 -pthread -lpthread -lstdc++ -lX11 -O3 -DNDEBUG   -o CMakeFiles/Snake.dir/Snake.cpp.o -c /home/mwawrzkow/Desktop/saper/snake/Snake.cpp",
+  "file": "/home/mwawrzkow/Desktop/saper/snake/Snake.cpp"
 },
 
 {
-  "directory": "/home/marcin/Pulpit/snake/build/default",
-  "command": "/usr/bin/c++  -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DXML_DTD -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -isystem /usr/local/include  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/Snake.dir/src/GameLogic/Snake/Grid/SnakeBoard.cpp.o -c /home/marcin/Pulpit/snake/src/GameLogic/Snake/Grid/SnakeBoard.cpp",
-  "file": "/home/marcin/Pulpit/snake/src/GameLogic/Snake/Grid/SnakeBoard.cpp"
+  "directory": "/home/mwawrzkow/Desktop/saper/snake/build/default",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS   -std=c++17 -pthread -lpthread -lstdc++ -lX11 -O3 -DNDEBUG   -o CMakeFiles/Snake.dir/src/GameLogic/Snake/Grid/SnakeBoard.cpp.o -c /home/mwawrzkow/Desktop/saper/snake/src/GameLogic/Snake/Grid/SnakeBoard.cpp",
+  "file": "/home/mwawrzkow/Desktop/saper/snake/src/GameLogic/Snake/Grid/SnakeBoard.cpp"
 },
 
 {
-  "directory": "/home/marcin/Pulpit/snake/build/default",
-  "command": "/usr/bin/c++  -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DXML_DTD -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -isystem /usr/local/include  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/Snake.dir/src/GameLogic/Snake/Grid/BoardView.cpp.o -c /home/marcin/Pulpit/snake/src/GameLogic/Snake/Grid/BoardView.cpp",
-  "file": "/home/marcin/Pulpit/snake/src/GameLogic/Snake/Grid/BoardView.cpp"
+  "directory": "/home/mwawrzkow/Desktop/saper/snake/build/default",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS   -std=c++17 -pthread -lpthread -lstdc++ -lX11 -O3 -DNDEBUG   -o CMakeFiles/Snake.dir/src/GameLogic/Snake/Grid/BoardView.cpp.o -c /home/mwawrzkow/Desktop/saper/snake/src/GameLogic/Snake/Grid/BoardView.cpp",
+  "file": "/home/mwawrzkow/Desktop/saper/snake/src/GameLogic/Snake/Grid/BoardView.cpp"
 },
 
 {
-  "directory": "/home/marcin/Pulpit/snake/build/default",
-  "command": "/usr/bin/c++  -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DXML_DTD -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -isystem /usr/local/include  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/Snake.dir/src/GameLogic/Snake/Grid/Snake.cpp.o -c /home/marcin/Pulpit/snake/src/GameLogic/Snake/Grid/Snake.cpp",
-  "file": "/home/marcin/Pulpit/snake/src/GameLogic/Snake/Grid/Snake.cpp"
+  "directory": "/home/mwawrzkow/Desktop/saper/snake/build/default",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS   -std=c++17 -pthread -lpthread -lstdc++ -lX11 -O3 -DNDEBUG   -o CMakeFiles/Snake.dir/src/GameLogic/Snake/Grid/Snake.cpp.o -c /home/mwawrzkow/Desktop/saper/snake/src/GameLogic/Snake/Grid/Snake.cpp",
+  "file": "/home/mwawrzkow/Desktop/saper/snake/src/GameLogic/Snake/Grid/Snake.cpp"
 },
 
 {
-  "directory": "/home/marcin/Pulpit/snake/build/default",
-  "command": "/usr/bin/c++  -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DXML_DTD -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -isystem /usr/local/include  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/Snake.dir/src/GameLogic/Snake/Player.cpp.o -c /home/marcin/Pulpit/snake/src/GameLogic/Snake/Player.cpp",
-  "file": "/home/marcin/Pulpit/snake/src/GameLogic/Snake/Player.cpp"
+  "directory": "/home/mwawrzkow/Desktop/saper/snake/build/default",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS   -std=c++17 -pthread -lpthread -lstdc++ -lX11 -O3 -DNDEBUG   -o CMakeFiles/Snake.dir/src/GameLogic/Snake/Player.cpp.o -c /home/mwawrzkow/Desktop/saper/snake/src/GameLogic/Snake/Player.cpp",
+  "file": "/home/mwawrzkow/Desktop/saper/snake/src/GameLogic/Snake/Player.cpp"
 },
 
 {
-  "directory": "/home/marcin/Pulpit/snake/build/default",
-  "command": "/usr/bin/c++  -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DXML_DTD -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -isystem /usr/local/include  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/Snake.dir/src/GameLogic/Snake/GameController.cpp.o -c /home/marcin/Pulpit/snake/src/GameLogic/Snake/GameController.cpp",
-  "file": "/home/marcin/Pulpit/snake/src/GameLogic/Snake/GameController.cpp"
+  "directory": "/home/mwawrzkow/Desktop/saper/snake/build/default",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS   -std=c++17 -pthread -lpthread -lstdc++ -lX11 -O3 -DNDEBUG   -o CMakeFiles/Snake.dir/src/GameLogic/Snake/GameController.cpp.o -c /home/mwawrzkow/Desktop/saper/snake/src/GameLogic/Snake/GameController.cpp",
+  "file": "/home/mwawrzkow/Desktop/saper/snake/src/GameLogic/Snake/GameController.cpp"
 },
 
 {
-  "directory": "/home/marcin/Pulpit/snake/build/default",
-  "command": "/usr/bin/c++  -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DXML_DTD -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -isystem /usr/local/include  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/Snake.dir/src/WindowStates/FileIO/FileInformation/FileInformation.cpp.o -c /home/marcin/Pulpit/snake/src/WindowStates/FileIO/FileInformation/FileInformation.cpp",
-  "file": "/home/marcin/Pulpit/snake/src/WindowStates/FileIO/FileInformation/FileInformation.cpp"
+  "directory": "/home/mwawrzkow/Desktop/saper/snake/build/default",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS   -std=c++17 -pthread -lpthread -lstdc++ -lX11 -O3 -DNDEBUG   -o CMakeFiles/Snake.dir/src/WindowStates/FileIO/FileInformation/FileInformation.cpp.o -c /home/mwawrzkow/Desktop/saper/snake/src/WindowStates/FileIO/FileInformation/FileInformation.cpp",
+  "file": "/home/mwawrzkow/Desktop/saper/snake/src/WindowStates/FileIO/FileInformation/FileInformation.cpp"
 },
 
 {
-  "directory": "/home/marcin/Pulpit/snake/build/default",
-  "command": "/usr/bin/c++  -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DXML_DTD -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -isystem /usr/local/include  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/Snake.dir/src/WindowStates/FileIO/FileManager.cpp.o -c /home/marcin/Pulpit/snake/src/WindowStates/FileIO/FileManager.cpp",
-  "file": "/home/marcin/Pulpit/snake/src/WindowStates/FileIO/FileManager.cpp"
+  "directory": "/home/mwawrzkow/Desktop/saper/snake/build/default",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS   -std=c++17 -pthread -lpthread -lstdc++ -lX11 -O3 -DNDEBUG   -o CMakeFiles/Snake.dir/src/WindowStates/FileIO/FileManager.cpp.o -c /home/mwawrzkow/Desktop/saper/snake/src/WindowStates/FileIO/FileManager.cpp",
+  "file": "/home/mwawrzkow/Desktop/saper/snake/src/WindowStates/FileIO/FileManager.cpp"
 },
 
 {
-  "directory": "/home/marcin/Pulpit/snake/build/default",
-  "command": "/usr/bin/c++  -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DXML_DTD -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -isystem /usr/local/include  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/Snake.dir/src/WindowStates/LoadSprite/texturebackend/Cache.cpp.o -c /home/marcin/Pulpit/snake/src/WindowStates/LoadSprite/texturebackend/Cache.cpp",
-  "file": "/home/marcin/Pulpit/snake/src/WindowStates/LoadSprite/texturebackend/Cache.cpp"
+  "directory": "/home/mwawrzkow/Desktop/saper/snake/build/default",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS   -std=c++17 -pthread -lpthread -lstdc++ -lX11 -O3 -DNDEBUG   -o CMakeFiles/Snake.dir/src/WindowStates/LoadSprite/texturebackend/Cache.cpp.o -c /home/mwawrzkow/Desktop/saper/snake/src/WindowStates/LoadSprite/texturebackend/Cache.cpp",
+  "file": "/home/mwawrzkow/Desktop/saper/snake/src/WindowStates/LoadSprite/texturebackend/Cache.cpp"
 },
 
 {
-  "directory": "/home/marcin/Pulpit/snake/build/default",
-  "command": "/usr/bin/c++  -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DXML_DTD -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -isystem /usr/local/include  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/Snake.dir/src/WindowStates/LoadSprite/texturebackend/SpriteOptions.cpp.o -c /home/marcin/Pulpit/snake/src/WindowStates/LoadSprite/texturebackend/SpriteOptions.cpp",
-  "file": "/home/marcin/Pulpit/snake/src/WindowStates/LoadSprite/texturebackend/SpriteOptions.cpp"
+  "directory": "/home/mwawrzkow/Desktop/saper/snake/build/default",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS   -std=c++17 -pthread -lpthread -lstdc++ -lX11 -O3 -DNDEBUG   -o CMakeFiles/Snake.dir/src/WindowStates/LoadSprite/texturebackend/SpriteOptions.cpp.o -c /home/mwawrzkow/Desktop/saper/snake/src/WindowStates/LoadSprite/texturebackend/SpriteOptions.cpp",
+  "file": "/home/mwawrzkow/Desktop/saper/snake/src/WindowStates/LoadSprite/texturebackend/SpriteOptions.cpp"
 },
 
 {
-  "directory": "/home/marcin/Pulpit/snake/build/default",
-  "command": "/usr/bin/c++  -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DXML_DTD -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -isystem /usr/local/include  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/Snake.dir/src/WindowStates/LoadSprite/ClickEvent.cpp.o -c /home/marcin/Pulpit/snake/src/WindowStates/LoadSprite/ClickEvent.cpp",
-  "file": "/home/marcin/Pulpit/snake/src/WindowStates/LoadSprite/ClickEvent.cpp"
+  "directory": "/home/mwawrzkow/Desktop/saper/snake/build/default",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS   -std=c++17 -pthread -lpthread -lstdc++ -lX11 -O3 -DNDEBUG   -o CMakeFiles/Snake.dir/src/WindowStates/LoadSprite/ClickEvent.cpp.o -c /home/mwawrzkow/Desktop/saper/snake/src/WindowStates/LoadSprite/ClickEvent.cpp",
+  "file": "/home/mwawrzkow/Desktop/saper/snake/src/WindowStates/LoadSprite/ClickEvent.cpp"
 },
 
 {
-  "directory": "/home/marcin/Pulpit/snake/build/default",
-  "command": "/usr/bin/c++  -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DXML_DTD -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -isystem /usr/local/include  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/Snake.dir/src/WindowStates/LoadSprite/Object.cpp.o -c /home/marcin/Pulpit/snake/src/WindowStates/LoadSprite/Object.cpp",
-  "file": "/home/marcin/Pulpit/snake/src/WindowStates/LoadSprite/Object.cpp"
+  "directory": "/home/mwawrzkow/Desktop/saper/snake/build/default",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS   -std=c++17 -pthread -lpthread -lstdc++ -lX11 -O3 -DNDEBUG   -o CMakeFiles/Snake.dir/src/WindowStates/LoadSprite/Object.cpp.o -c /home/mwawrzkow/Desktop/saper/snake/src/WindowStates/LoadSprite/Object.cpp",
+  "file": "/home/mwawrzkow/Desktop/saper/snake/src/WindowStates/LoadSprite/Object.cpp"
 },
 
 {
-  "directory": "/home/marcin/Pulpit/snake/build/default",
-  "command": "/usr/bin/c++  -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DXML_DTD -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -isystem /usr/local/include  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/Snake.dir/src/WindowStates/LoadSprite/ObjectInterface.cpp.o -c /home/marcin/Pulpit/snake/src/WindowStates/LoadSprite/ObjectInterface.cpp",
-  "file": "/home/marcin/Pulpit/snake/src/WindowStates/LoadSprite/ObjectInterface.cpp"
+  "directory": "/home/mwawrzkow/Desktop/saper/snake/build/default",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS   -std=c++17 -pthread -lpthread -lstdc++ -lX11 -O3 -DNDEBUG   -o CMakeFiles/Snake.dir/src/WindowStates/LoadSprite/ObjectInterface.cpp.o -c /home/mwawrzkow/Desktop/saper/snake/src/WindowStates/LoadSprite/ObjectInterface.cpp",
+  "file": "/home/mwawrzkow/Desktop/saper/snake/src/WindowStates/LoadSprite/ObjectInterface.cpp"
 },
 
 {
-  "directory": "/home/marcin/Pulpit/snake/build/default",
-  "command": "/usr/bin/c++  -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DXML_DTD -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -isystem /usr/local/include  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/Snake.dir/src/WindowStates/LoadSprite/ObjectUpdate.cpp.o -c /home/marcin/Pulpit/snake/src/WindowStates/LoadSprite/ObjectUpdate.cpp",
-  "file": "/home/marcin/Pulpit/snake/src/WindowStates/LoadSprite/ObjectUpdate.cpp"
+  "directory": "/home/mwawrzkow/Desktop/saper/snake/build/default",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS   -std=c++17 -pthread -lpthread -lstdc++ -lX11 -O3 -DNDEBUG   -o CMakeFiles/Snake.dir/src/WindowStates/LoadSprite/ObjectUpdate.cpp.o -c /home/mwawrzkow/Desktop/saper/snake/src/WindowStates/LoadSprite/ObjectUpdate.cpp",
+  "file": "/home/mwawrzkow/Desktop/saper/snake/src/WindowStates/LoadSprite/ObjectUpdate.cpp"
 },
 
 {
-  "directory": "/home/marcin/Pulpit/snake/build/default",
-  "command": "/usr/bin/c++  -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DXML_DTD -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -isystem /usr/local/include  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/Snake.dir/src/WindowStates/LoadSprite/RenderClass.cpp.o -c /home/marcin/Pulpit/snake/src/WindowStates/LoadSprite/RenderClass.cpp",
-  "file": "/home/marcin/Pulpit/snake/src/WindowStates/LoadSprite/RenderClass.cpp"
+  "directory": "/home/mwawrzkow/Desktop/saper/snake/build/default",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS   -std=c++17 -pthread -lpthread -lstdc++ -lX11 -O3 -DNDEBUG   -o CMakeFiles/Snake.dir/src/WindowStates/LoadSprite/RenderClass.cpp.o -c /home/mwawrzkow/Desktop/saper/snake/src/WindowStates/LoadSprite/RenderClass.cpp",
+  "file": "/home/mwawrzkow/Desktop/saper/snake/src/WindowStates/LoadSprite/RenderClass.cpp"
 },
 
 {
-  "directory": "/home/marcin/Pulpit/snake/build/default",
-  "command": "/usr/bin/c++  -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DXML_DTD -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -isystem /usr/local/include  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/Snake.dir/src/WindowStates/State.cpp.o -c /home/marcin/Pulpit/snake/src/WindowStates/State.cpp",
-  "file": "/home/marcin/Pulpit/snake/src/WindowStates/State.cpp"
+  "directory": "/home/mwawrzkow/Desktop/saper/snake/build/default",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS   -std=c++17 -pthread -lpthread -lstdc++ -lX11 -O3 -DNDEBUG   -o CMakeFiles/Snake.dir/src/WindowStates/State.cpp.o -c /home/mwawrzkow/Desktop/saper/snake/src/WindowStates/State.cpp",
+  "file": "/home/mwawrzkow/Desktop/saper/snake/src/WindowStates/State.cpp"
 },
 
 {
-  "directory": "/home/marcin/Pulpit/snake/build/default",
-  "command": "/usr/bin/c++  -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DXML_DTD -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -isystem /usr/local/include  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/Snake.dir/src/WindowPrototypes/EventHandler.cpp.o -c /home/marcin/Pulpit/snake/src/WindowPrototypes/EventHandler.cpp",
-  "file": "/home/marcin/Pulpit/snake/src/WindowPrototypes/EventHandler.cpp"
+  "directory": "/home/mwawrzkow/Desktop/saper/snake/build/default",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS   -std=c++17 -pthread -lpthread -lstdc++ -lX11 -O3 -DNDEBUG   -o CMakeFiles/Snake.dir/src/WindowPrototypes/EventHandler.cpp.o -c /home/mwawrzkow/Desktop/saper/snake/src/WindowPrototypes/EventHandler.cpp",
+  "file": "/home/mwawrzkow/Desktop/saper/snake/src/WindowPrototypes/EventHandler.cpp"
 },
 
 {
-  "directory": "/home/marcin/Pulpit/snake/build/default",
-  "command": "/usr/bin/c++  -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DXML_DTD -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -isystem /usr/local/include  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/Snake.dir/src/WindowPrototypes/MSSFMLView.cpp.o -c /home/marcin/Pulpit/snake/src/WindowPrototypes/MSSFMLView.cpp",
-  "file": "/home/marcin/Pulpit/snake/src/WindowPrototypes/MSSFMLView.cpp"
+  "directory": "/home/mwawrzkow/Desktop/saper/snake/build/default",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS   -std=c++17 -pthread -lpthread -lstdc++ -lX11 -O3 -DNDEBUG   -o CMakeFiles/Snake.dir/src/WindowPrototypes/MSSFMLView.cpp.o -c /home/mwawrzkow/Desktop/saper/snake/src/WindowPrototypes/MSSFMLView.cpp",
+  "file": "/home/mwawrzkow/Desktop/saper/snake/src/WindowPrototypes/MSSFMLView.cpp"
 },
 
 {
-  "directory": "/home/marcin/Pulpit/snake/build/default",
-  "command": "/usr/bin/c++  -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DXML_DTD -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -isystem /usr/local/include  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/Snake.dir/src/WindowPrototypes/Render.cpp.o -c /home/marcin/Pulpit/snake/src/WindowPrototypes/Render.cpp",
-  "file": "/home/marcin/Pulpit/snake/src/WindowPrototypes/Render.cpp"
+  "directory": "/home/mwawrzkow/Desktop/saper/snake/build/default",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS   -std=c++17 -pthread -lpthread -lstdc++ -lX11 -O3 -DNDEBUG   -o CMakeFiles/Snake.dir/src/WindowPrototypes/Render.cpp.o -c /home/mwawrzkow/Desktop/saper/snake/src/WindowPrototypes/Render.cpp",
+  "file": "/home/mwawrzkow/Desktop/saper/snake/src/WindowPrototypes/Render.cpp"
 },
 
 {
-  "directory": "/home/marcin/Pulpit/snake/build/default",
-  "command": "/usr/bin/c++  -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DXML_DTD -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -isystem /usr/local/include  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/Snake.dir/src/SnakeEventHolder.cpp.o -c /home/marcin/Pulpit/snake/src/SnakeEventHolder.cpp",
-  "file": "/home/marcin/Pulpit/snake/src/SnakeEventHolder.cpp"
+  "directory": "/home/mwawrzkow/Desktop/saper/snake/build/default",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS   -std=c++17 -pthread -lpthread -lstdc++ -lX11 -O3 -DNDEBUG   -o CMakeFiles/Snake.dir/src/SnakeEventHolder.cpp.o -c /home/mwawrzkow/Desktop/saper/snake/src/SnakeEventHolder.cpp",
+  "file": "/home/mwawrzkow/Desktop/saper/snake/src/SnakeEventHolder.cpp"
 },
 
 {
-  "directory": "/home/marcin/Pulpit/snake/build/default",
-  "command": "/usr/bin/c++  -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DXML_DTD -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -isystem /usr/local/include  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/Snake.dir/src/FileIOController.cpp.o -c /home/marcin/Pulpit/snake/src/FileIOController.cpp",
-  "file": "/home/marcin/Pulpit/snake/src/FileIOController.cpp"
+  "directory": "/home/mwawrzkow/Desktop/saper/snake/build/default",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS   -std=c++17 -pthread -lpthread -lstdc++ -lX11 -O3 -DNDEBUG   -o CMakeFiles/Snake.dir/src/FileIOController.cpp.o -c /home/mwawrzkow/Desktop/saper/snake/src/FileIOController.cpp",
+  "file": "/home/mwawrzkow/Desktop/saper/snake/src/FileIOController.cpp"
 },
 
 {
-  "directory": "/home/marcin/Pulpit/snake/build/default",
-  "command": "/usr/bin/c++  -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DXML_DTD -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -isystem /usr/local/include  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/Snake.dir/src/SFMLView.cpp.o -c /home/marcin/Pulpit/snake/src/SFMLView.cpp",
-  "file": "/home/marcin/Pulpit/snake/src/SFMLView.cpp"
+  "directory": "/home/mwawrzkow/Desktop/saper/snake/build/default",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS   -std=c++17 -pthread -lpthread -lstdc++ -lX11 -O3 -DNDEBUG   -o CMakeFiles/Snake.dir/src/SFMLView.cpp.o -c /home/mwawrzkow/Desktop/saper/snake/src/SFMLView.cpp",
+  "file": "/home/mwawrzkow/Desktop/saper/snake/src/SFMLView.cpp"
 },
 
 {
-  "directory": "/home/marcin/Pulpit/snake/build/default",
-  "command": "/usr/bin/c++  -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DXML_DTD -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -isystem /usr/local/include  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/Snake.dir/src/SnakeRender.cpp.o -c /home/marcin/Pulpit/snake/src/SnakeRender.cpp",
-  "file": "/home/marcin/Pulpit/snake/src/SnakeRender.cpp"
+  "directory": "/home/mwawrzkow/Desktop/saper/snake/build/default",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS   -std=c++17 -pthread -lpthread -lstdc++ -lX11 -O3 -DNDEBUG   -o CMakeFiles/Snake.dir/src/SnakeRender.cpp.o -c /home/mwawrzkow/Desktop/saper/snake/src/SnakeRender.cpp",
+  "file": "/home/mwawrzkow/Desktop/saper/snake/src/SnakeRender.cpp"
 },
 
 {
-  "directory": "/home/marcin/Pulpit/snake/build/default",
-  "command": "/usr/bin/c++  -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DXML_DTD -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -isystem /usr/local/include  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/Snake.dir/src/States/Game.cpp.o -c /home/marcin/Pulpit/snake/src/States/Game.cpp",
-  "file": "/home/marcin/Pulpit/snake/src/States/Game.cpp"
+  "directory": "/home/mwawrzkow/Desktop/saper/snake/build/default",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS   -std=c++17 -pthread -lpthread -lstdc++ -lX11 -O3 -DNDEBUG   -o CMakeFiles/Snake.dir/src/States/Game.cpp.o -c /home/mwawrzkow/Desktop/saper/snake/src/States/Game.cpp",
+  "file": "/home/mwawrzkow/Desktop/saper/snake/src/States/Game.cpp"
 },
 
 {
-  "directory": "/home/marcin/Pulpit/snake/build/default",
-  "command": "/usr/bin/c++  -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DXML_DTD -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -isystem /usr/local/include  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/Snake.dir/src/States/Game/Tile.cpp.o -c /home/marcin/Pulpit/snake/src/States/Game/Tile.cpp",
-  "file": "/home/marcin/Pulpit/snake/src/States/Game/Tile.cpp"
+  "directory": "/home/mwawrzkow/Desktop/saper/snake/build/default",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS   -std=c++17 -pthread -lpthread -lstdc++ -lX11 -O3 -DNDEBUG   -o CMakeFiles/Snake.dir/src/States/Game/Tile.cpp.o -c /home/mwawrzkow/Desktop/saper/snake/src/States/Game/Tile.cpp",
+  "file": "/home/mwawrzkow/Desktop/saper/snake/src/States/Game/Tile.cpp"
 }
 ]

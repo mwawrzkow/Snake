@@ -12,12 +12,13 @@
 #include "string"
 namespace Unit {
 enum move {
-	up, left, right, down
+	up, left, right, down,none
 };
 
 class Snake {
 	bool alive = true;
 	std::vector<UnitPosition> parts;
+	move lastRequestedMove = none;
 	move reqMove;
 	int lenght;
 	bool waitWithLastPart = false;

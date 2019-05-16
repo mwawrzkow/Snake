@@ -11,6 +11,7 @@ namespace Unit {
 
 Tile::Tile(const Graphic::ObjectInterface& settings) :
 		ObjectInterface(settings) {
+	createSprite();
 	// TODO Auto-generated constructor stub
 
 }

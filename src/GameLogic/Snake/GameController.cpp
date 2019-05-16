@@ -20,7 +20,7 @@ GameController::GameController() {
 GameController::GameController(std::string name) {
 	playerTwo = nullptr;
 	playerOne = new Unit::Player(name);
-	board = new Board::SnakeBoard(10, 10, playerOne);
+	board = new Board::SnakeBoard(25, 25, playerOne);
 	view = new Board::BoardView(board, playerOne, playerTwo);
 
 }

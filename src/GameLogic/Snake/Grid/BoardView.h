@@ -17,15 +17,15 @@ enum playerNumber {
 };
 class BoardView {
 	const SnakeBoard *board;
-	const Unit::Snake *SnakeOne;
-	const Unit::Snake *SnakeTwo;
+	Unit::Snake *SnakeOne;
+	Unit::Snake *SnakeTwo;
 public:
 	BoardView(SnakeBoard*, Unit::Snake*, Unit::Snake*);
 	blockType getBlockType(int, int);
 	virtual ~BoardView();
-	const Unit::Snake* getSnake(playerNumber) const;
-	const int getBoardWidth()const;
-	const int getBoardHeight()const;
+	Unit::Snake* getSnake(playerNumber) ;
+	const int getBoardWidth() const;
+	const int getBoardHeight() const;
 };
 
 } /* namespace Board */
